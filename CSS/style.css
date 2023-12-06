@@ -1,0 +1,160 @@
+@charset "UTF-8";
+.header {
+  margin-top: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(160, 138, 123, 60%);
+}
+
+.header-inner {
+  max-width: 1000px;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo {
+  flex: none;
+  width: auto;
+}
+
+.logo img {
+  width: 60px;
+  height: auto;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.logo p {
+  color: #ffff;
+  margin-top: -6px;
+  font-family: sans-serif;
+}
+
+.nav_ul {
+  margin-left: auto;
+  display: flex;
+  flex: none;
+  color: #ffff;
+  font-family: sans-serif;
+}
+
+.nav_ul > * + * {
+  margin-left: 60px;
+}
+
+.main {
+  width: 100%;
+  margin-top: 80px;
+  height: 1200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.concept-inner {
+  max-width: 1000px;
+  width: 90%;
+  height: 33%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.concept-message {
+  text-align: center;
+  width: 50%;
+  float: left;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.concept-message h1 {
+  font-size: larger;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.concept-img img {
+  width: 438px;
+  height: auto;
+  float: right;
+  border-radius: 10px;
+}
+
+.menu-inner {
+  max-width: 1000px;
+  width: 90%;
+  height: 33%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-message {
+  width: 50%;
+  text-align: center;
+  float: right;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.menu-message h1 {
+  font-size: larger;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.menu-img img {
+  width: 438px;
+  height: auto;
+  float: left;
+  border-radius: 10px;
+}
+
+.information {
+  max-width: 1000px;
+  width: 90%;
+  height: 33%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.information h1 {
+  font-size: larger;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.information li {
+  font-family: sans-serif;
+  font-size: medium;
+  line-height: 30px;
+  border-bottom: thick double rgb(160, 138, 123);
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(160, 138, 123, 60%);
+}
+
+.footer-inner {
+  margin-top: auto;
+}
