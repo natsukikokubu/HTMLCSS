@@ -35,13 +35,13 @@
   text-decoration: none;
 }
 
-.logo p {
+.logo h1 {
   color: #ffff;
   margin-top: -6px;
   font-family: sans-serif;
 }
 
-.nav_ul {
+.nav-ul {
   margin-left: auto;
   display: flex;
   flex: none;
@@ -49,7 +49,7 @@
   font-family: sans-serif;
 }
 
-.nav_ul > * + * {
+.nav-ul > * + * {
   margin-left: 60px;
 }
 
